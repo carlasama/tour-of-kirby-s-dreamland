@@ -1,0 +1,60 @@
+h2 {
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-family: "Press Start 2P";
+  text-align: center;
+  color: #fd99a7;
+  -webkit-text-stroke: 1px #dd0459;
+  font-size: 20px;
+}
+
+.heroes {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 25em;
+  font-size: unset;
+  margin: auto;
+  margin-top: 35px;
+  text-align: center;
+}
+
+label {
+  color: #68c4cb;
+  font-weight: bold;
+}
+
+.id {
+  color: #68c4cb;
+}
+
+input {
+  font-size: 1em;
+  padding: 0.5rem;
+}
+
+.save {
+  padding: 0.5rem;
+  color: yellow;
+  text-decoration: 0;
+  max-width: 600px;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  font-family: "Press Start 2P";
+  border-bottom-color: currentcolor;
+}
+
+.back {
+  color: yellow;
+  padding: 0.5rem;
+  text-decoration: 0;
+  max-width: 600px;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  font-family: "Press Start 2P";
+  border-bottom-color: currentcolor;
+}

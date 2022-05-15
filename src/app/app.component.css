@@ -1,0 +1,68 @@
+.jumbotron {
+  background-color: #070a0d;
+  background-size: cover;
+  padding-bottom: 20%;
+}
+
+.star_kirby1 {
+  width: 55px;
+}
+
+.star_kirby2 {
+  width: 55px;
+}
+
+.kirby {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  max-width: 200px;
+  margin: auto;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-family: "Press Start 2P";
+  text-align: center;
+  color: #fd99a7;
+  -webkit-text-stroke: 1px #dd0459;
+  margin-top: 100px;
+  font-size: clamp(2em, 1em + 1vw, 1.5em);
+}
+
+h2 {
+  -webkit-text-stroke-width: medium;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+nav a {
+  padding: 1rem;
+  text-decoration: none;
+  color: #fd99a7;
+  -webkit-text-stroke: 1px #dd0459;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 25px;
+  border-style: ridge;
+}
+
+nav a:hover {
+  color: #fff;
+  border-color: #fd99a7;
+}

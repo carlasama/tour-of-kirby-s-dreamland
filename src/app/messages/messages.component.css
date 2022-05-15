@@ -1,0 +1,38 @@
+* {
+    color: yellow;
+  }
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-family: "Press Start 2P";
+    text-align: center;
+    color: #fd99a7;
+    -webkit-text-stroke: 1px #dd0459;
+    font-size: 20px;
+  }
+
+  .clear {
+    padding: 0.5rem;
+    text-decoration: 0;
+    max-width: 600px;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    font-family: "Press Start 2P";
+    border-bottom-color: currentcolor;
+  }
+
+  .clear:hover {
+    color: #fafafa;
+  }
+
+  .listMessages {
+    margin: auto;
+    width: fit-content;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+  }

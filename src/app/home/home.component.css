@@ -1,0 +1,129 @@
+* {
+  color: yellow;
+}
+
+.heroes {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 25em;
+  font-size: large;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.heroes li {
+  position: relative;
+  cursor: pointer;
+}
+
+.heroes li:hover {
+  left: .1em;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: #68c4cb;
+}
+
+h2 {
+  margin-bottom: 0;
+  font-family: "Press Start 2P";
+  text-align: center;
+  color: #fd99a7;
+  -webkit-text-stroke: 1px #dd0459;
+  font-size: 20px;
+}
+
+input {
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+}
+
+input:focus {
+  outline: #dd0459 auto 1px;
+}
+
+
+.heroes a {
+  color: #333;
+  text-decoration: none;
+  background-color: #EEE;
+  margin: .5em;
+  height: 1.6em;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+}
+
+.heroes a:hover {
+  color: #2c3a41;
+  background-color: #e6e6e6;
+}
+
+.heroes a:active {
+  background-color: #525252;
+  color: #fafafa;
+}
+
+.heroes .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  background-color: #dd0459;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  border-radius: 4px;
+}
+
+.add-button {
+  padding: 0.5rem;
+  text-decoration: 0;
+  max-width: 600px;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  font-family: "Press Start 2P";
+  border-bottom-color: currentcolor;
+}
+
+.add-button:hover {
+  color: #fafafa;
+}
+
+button.delete {
+  position: absolute;
+  left: 440px;
+  top: 1px;
+  background-color: white;
+  color: #525252;
+  font-size: 1.1rem;
+  margin: 0;
+  /* border-style: solid; */
+  padding: 1px 10px 3px 10px;
+  font-size: small;
+}
+
+#delete{
+  color: black;
+}
+
+button.delete:hover {
+  background-color: #dd0459;
+  color: white;
+}

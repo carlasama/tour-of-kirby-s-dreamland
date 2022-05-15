@@ -1,0 +1,39 @@
+<h2>My Heroes</h2>
+<div>
+  <label for="new-hero">Hero name: </label>
+  <input
+    class="form-control mr-sm-2"
+    type="search"
+    placeholder="Put here the name of the hero you want to add"
+    aria-label="Add"
+    #searchBox
+    id="new-hero"
+    #heroName
+  />
+
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button
+    type="button"
+    class="add-button btn btn-link"
+    (click)="add(heroName.value); heroName.value = ''"
+  >
+    <i class="fa-solid fa-star"></i>
+    Add
+    <i class="fa-solid fa-star"></i>
+  </button>
+</div>
+<ul class="heroes">
+  <li *ngFor="let hero of heroes">
+    <a routerLink="/detail/{{hero.id}}">
+      <span class="badge"><i class="fa-solid fa-star"></i>{{hero.id}}</span>{{hero.name}}
+    </a>
+    <button
+      type="button"
+      class="delete"
+      title="delete hero"
+      (click)="delete(hero)"
+    >
+    <i class="fa-solid fa-xmark" id="delete"></i>
+    </button>
+  </li>
+</ul>

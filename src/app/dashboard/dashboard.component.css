@@ -1,0 +1,60 @@
+h2 {
+    text-align: center;
+    font-family: "Press Start 2P", cursive;
+    color: #fd99a7;
+    font-size: 2.2rem;
+    -webkit-text-stroke: 1px #dd0459;
+    margin-bottom: 30px;
+  }
+  
+  .heroes-menu {
+    padding: 0;
+    margin: auto;
+    max-width: 1000px;
+  
+    /* flexbox */
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  a {
+    border-style: dotted;
+    border-top-width: thin;
+    border-radius: 4px;
+    padding: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    min-width: 510px;
+    margin: .5rem auto;
+    box-sizing: border-box;
+  
+    /* flexbox */
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+  }
+  
+  @media (min-width: 600px) {
+    a {
+      width: 18%;
+      box-sizing: padding-box;
+    }
+  }
+  
+  a:hover {
+    color: #fd99a7;
+    -webkit-text-stroke: 1px #dd0459;
+    text-transform: uppercase;
+  }
